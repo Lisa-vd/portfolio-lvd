@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Op deze pagina kunt meer over mij lezen.">
+    <link rel="stylesheet" href="style.css">
+    <title>Over mij LvD</title>
+    <style>
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            padding-top: 100px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+
+        .modal-content {
+            background-color: #f7f0dd;
+            margin: auto;
+            padding: 20px;
+            border: 3px solid #8f6f57;
+            width: 40%;
+        }
+
+        .modal-content p {
+            margin: auto;
+            max-width: 70ch;
+            color: black;
+        }
+
+
+        .close {
+            color: #556b2f;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container-over_mij">
+
+    <header>
+        <div class="container-header">
+            <div class="header-name">
+                <a href="index.html"><h3>Lisa van Dongen</h3></a>
+            </div>
+            <div class="header-divider"></div>
+        </div>
+    </header>
+    <nav>
+        <div class="header-nav">
+            <div class="nav-link">
+                <a href="over_mij.html">Over mij</a>
+                <a href="studies.html">Studies</a>
+                <a href="vaardigheden.html">Vaardigheden</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="om-info">
+        <p>
+            <strong>Over mij<br><br></strong>
+            29 juli 2005 rond 22:00 werd ik geboren in Zwijndrecht.
+            Mijn hele leven woon ik in Hendrik-Ido-Ambacht. Ik heb een zus en mijn ouders zijn gescheiden.
+            <br><br>
+            Ik ben een beetje lui maar ook gedisciplineerd. Ik help graag mensen om mij heen en ik hou ervan om met mijn
+            gezin te zijn.
+            <br><br>
+            Ik ben erg geïnteresseerd in Formule 1. Ik vind het niet alleen leuk
+            om naar te kijken, maar ook om zelf te racen op mijn PlayStation. Daarnaast vind ik het leuk om applicaties
+            te maken, momenteel kan ik alleen websites maken maar ik hoop later ook mobiele apps te programmeren.
+            <br><br>
+            Hier rechts kunt u lezen over mijn scoliose, dit is een groot onderdeel uit mijn leven.
+        </p>
+    </div>
+
+    <div class="om-paginanaam"><h3>Over mij</h3></div>
+
+    <div class="om-1">
+        <p>
+            <strong>Scoliose</strong><br><br>
+            Als u niet weet wat scoliose is, raad ik u aan om eerst op de knop hieronder te klikken.
+            Toen ik zeven jaar was werd bekend dat ik scoliose had. Ik heb zeven jaar lang minimaal 20 uur
+            per dag een brace gedragen.<br>
+            Op de linker foto staat de foto van mijn rug voor de operatie. Zoals u kan zien was mijn bovenbocht erger
+            dan mijn onderbocht.
+            Mijn bovenbocht werd te heftig dus moest ik geopereerd worden. De rechter foto is mijn rug na de
+            operatie.<br>
+            Gelukkig heb ik geen last van mijn onderbocht en erg tevreden over mijn operatie.<br>
+            <button id="scoliose-btn"><strong>Wat is scoliose?</strong></button>
+        </p>
+
+        <div id="Modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Krommingen in uw wervelkolom helpen het bovenlichaam in balans te blijven. Wanneer de wervelkolom
+                    abnormale, zijwaartse krommingen heeft, noemen we dit scoliose. Vaak krijgen mensen die op leeftijd
+                    zijn scoliose, maar kinderen kunnen het ook krijgen. <br><br>
+                    Niemand zijn wervelkolom staat kaarsrecht, maar wanneer de krommingen te heftig worden kan scoliose
+                    gevaarlijk worden. Als je ernstige scoliose hebt kan je bijvoorbeeld ademhalingsklachten of
+                    pijnklachten hebben. <br><br>
+                    Om te voorkomen dat je deze klachten gaat krijgen zijn twee oplossingen. De eerste oplossing is een
+                    corset/brace dragen. Dit krijg je als je kromming nog niet ernstig genoeg is voor een operatie. Een
+                    operatie is dan ook de tweede oplossing. <br><br>
+                    Tijdens de operatie corrigeert de orthopeed de wervelkolom. De arts maakt de bocht in de wervelkolom
+                    zo recht mogelijk.
+                    Hierna zet hij de wervelkolom vast met titanium staven en schroeven. De operatie duurt rond de drie
+                    en vier uur. <br>
+                    De revalidatie na een scoliose operatie start de dag van de operatie en duurt een paar maanden.<br>
+                    Enkele van de mogelijke risico's van een scoliose operatie zijn infectie,
+                    zenuwletsel, bloedverlies en darm- en blaasproblemen.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="om-2">
+        <img class="rug-img" src="img/rug-voor-operatie.jpg"
+             alt="Röntgenfoto van Lisa van Dongen voor de scoliose operatie">
+        <img class="rug-img" src="img/rug-na-operatie.jpg"
+             alt="Röntgenfoto van Lisa van Dongen na de scoliose operatie">
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-sitemap">
+                <p><strong>Sitemap</strong>
+                    <a href="over_mij.html">Over mij</a>
+                    <a href="studies.html">Studies</a>
+                    <a href="vaardigheden.html">Vaardigheden</a>
+                </p>
+            </div>
+            <div class="footer-name">
+                <h1>Lisa van Dongen</h1>
+            </div>
+            <div class="footer-linkedin">
+                <button class="linkedin-btn">
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://www.linkedin.com/in/lisa-van-dongen-582642227/"><img src="img/linkedin.png"
+                                                                                          alt="Logo van Linkedin"></a>
+                </button>
+            </div>
+            <div class="footer-contact">
+                <p><strong>Neem contact met mij op</strong></p>
+                <p>U kunt contact opnemen door een e-mail te sturen.<br>
+                    vandongenlisa@hotmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script>
+    var modal = document.getElementById("Modal");
+    var btn = document.getElementById("scoliose-btn");
+    var span = document.getElementsByClassName("close")[0];
+
+    // Klik op de knop, laat modal zien
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+
+    // Wanneer er op x word gedrukt, laat modal verdwijnen
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+    // Als de gebruiker op een plek buiten de modal klik, laat modal verdwijnen
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+</body>
+</html>
